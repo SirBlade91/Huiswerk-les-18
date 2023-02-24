@@ -2,15 +2,59 @@
 <html>
     <head>
         <title>Leiderdorp</title>
+        <meta charset="utf-8">
         <meta name="description" content="Welkom bij mijn woonplaats, Leiderdorp. Hier leest u alles over wat er te zien is">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
     </head>
+    <!-- rechterdeel is 9 kolommen, linkerdeel is 2 kolommen -->
     <body>
         <header>
             <!-- Bevat woonplaats in kop, foto van woonplaats als achtergrond -->
+            <h1 id="home">Leiderdorp, tussen stad en land</h1>
+            <nav>
+                <a href="#home"> <img id="top-arrow" src="afbeeldingen/green_arrow.svg" alt="top"></a>
+            <hr>
+            </nav>
         </header>
         <br>
         <!-- Links 5 feitjes over woonplaats, rechts 2 divs met artikelen over een attractie met afbeelding -->
+        <section class="col-2">
+            <h2>Grappige weetjes over Leiderdorp</h2>
+            <ul>
+                <li>Leiderdorp heeft schildpadden in de sloten, en alle sloten zijn met elkaar verbonden</li>
+                <li>De meeste huizen van Leiderdorp staan op palen</li>
+                <li>De Ringweg is vernoemd naar Pieter-Jan Ring</li>
+                <li>De warmste dag ooit gemeten in Leiderdorp was 48,2 graden celsius</li>
+                <li>Elk jaar trekken vlinders massaal naar de Leiderdorpse eikenbomen</li>
+            </ul>
+        </section>
+        <section class="col-9">
+            <div>
+                <article>
+                    <h2>Museum Leiderdorp</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <img class="artikel-afbeelding col-3" alt="Voordeur museum" src="https://via.placeholder.com/300x200">
+                </article>
+            </div>
+            <div>
+                <article>
+                    <h2>Winkelhof</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <img class="artikel-afbeelding col-3" alt="Voorzijde Winkelhof" src="https://via.placeholder.com/300x200">
+                </article>
+            </div>
+        </section>
         <br>
         <footer>
 
