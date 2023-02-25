@@ -5,6 +5,8 @@ beide hebben andere kleur. afbeelding rechts van de tekst
 minimaal 1 media query, mobile first
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 [class*="col-"]{
     width: 100%;
 }
@@ -25,22 +27,21 @@ minimaal 1 media query, mobile first
 }
 
 header{
-
-}
-
-nav{
-
+    font-family: Montserrat, sans-serif;
+    background-image: url(https://via.placeholder.com/500x100)
 }
 
 .col-2{
     float: left;
     max-height: 100%;
     margin: 5px;
+    background-color: cyan;
 }
 
 .col-9{
     display: inline-block;
     margin: 5px;
+    background-color: aquamarine;
 }
 
 .artikel-afbeelding{
